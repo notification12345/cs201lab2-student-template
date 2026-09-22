@@ -146,6 +146,7 @@ public class SinglyLinkedList<E extends Comparable<E>> {
             result.set(midPos, originalValues.get(midPos)); // odd count: middle value unchanged
         }
 
+        
         // Step 4: rebuild the list using only the public API you already have
         while (!isEmpty()) {
             removeFirst();
